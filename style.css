@@ -1,36 +1,66 @@
 body {
     margin: 0;
     height: 100vh;
-    display: flex;
     font-family: sans-serif;
-    overflow: hidden;
-}
-
-.half-button {
-    width: 50%;
-    height: 100vh;
-    background-image: url('f677614c-d950-4988-a6cb-42a588225cee.png');
-    background-size: 200% 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
-    font-weight: bold;
     color: white;
-    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.left-bg, .right-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.left-bg {
+    left: 0;
+    background-image: url('LethalCompanyBackground.jpg');
+}
+
+.right-bg {
+    right: 0;
+    background-image: url('REPOBackground.jpg');
+}
+
+.left-button-container,
+.right-button-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.orange-button,
+.cyan-button {
+    padding: 15px 30px;
     border: none;
-    transition: opacity 0.3s ease;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.half-button.left {
-    background-position: left center;
+.orange-button {
+    background-color: orange;
+    color: white;
 }
 
-.half-button.right {
-    background-position: right center;
+.cyan-button {
+    background-color: cyan;
+    color: black;
 }
 
-.half-button:hover {
-    opacity: 0.85;
+.orange-button:hover {
+    background-color: darkorange;
+}
+
+.cyan-button:hover {
+    background-color: #00dddd;
 }
