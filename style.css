@@ -5,7 +5,6 @@ body {
     color: white;
     position: relative;
     overflow: hidden;
-    display: flex;
 }
 
 .left-bg, .right-bg {
@@ -29,32 +28,44 @@ body {
     background-image: url('REPOBackground.jpg');
 }
 
-.left-button-container,
-.right-button-container {
+.left-button-container, .right-button-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-button-container {
+    left: 0;
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-.orange-button,
-.cyan-button {
+.right-button-container {
+    right: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.orange-button {
     padding: 15px 30px;
+    background-color: orange;
     border: none;
+    color: white;
     font-size: 1.2em;
     border-radius: 8px;
     cursor: pointer;
 }
 
-.orange-button {
-    background-color: orange;
-    color: white;
-}
-
 .cyan-button {
+    padding: 15px 30px;
     background-color: cyan;
+    border: none;
     color: black;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .orange-button:hover {
