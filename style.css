@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1; /* Put behind the content */
+    z-index: -1;
 }
 
 .left-bg {
@@ -28,14 +28,50 @@ body {
     background-image: url('REPOBackground.jpg');
 }
 
-.content {
-    position: relative;
-    z-index: 1;
+.left-button-container, .right-button-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-button-container {
+    left: 0;
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.4); /* Optional dark overlay */
+}
+
+.right-button-container {
+    right: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.orange-button {
+    padding: 15px 30px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cyan-button {
+    padding: 15px 30px;
+    background-color: cyan;
+    border: none;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.orange-button:hover {
+    background-color: darkorange;
+}
+
+.cyan-button:hover {
+    background-color: #00dddd;
 }
