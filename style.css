@@ -20,12 +20,12 @@ body {
 
 .left-bg {
     left: 0;
-    background-image: url('Lethal_Company_Folder/LethalCompanyBackground.jpg');
+    background-image: url('Lethal Company Folder/LethalCompanyBackground.jpg');
 }
 
 .right-bg {
     right: 0;
-    background-image: url('REPO_Folder/REPOBackground.jpg');
+    background-image: url('REPO Folder/REPOBackground.jpg');
 }
 
 .left-button-container, .right-button-container {
@@ -51,14 +51,14 @@ body {
 .orange-button, .cyan-button {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
     text-align: center;
     line-height: 120px;
-    font-size: 1.1em;
     text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 50%;
     cursor: pointer;
     display: inline-block;
-    transition: background-color 0.2s, transform 0.2s;
+    transition: background-color 0.2s;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
@@ -69,7 +69,6 @@ body {
 
 .orange-button:hover {
     background-color: darkorange;
-    transform: scale(1.05);
 }
 
 .cyan-button {
@@ -79,5 +78,4 @@ body {
 
 .cyan-button:hover {
     background-color: #00dddd;
-    transform: scale(1.05);
 }
