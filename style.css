@@ -48,28 +48,30 @@ body {
     justify-content: center;
 }
 
-.orange-button {
+.orange-button, .cyan-button {
     padding: 15px 30px;
-    background-color: orange;
-    border: none;
-    color: white;
+    text-decoration: none;
+    display: inline-block;
     font-size: 1.2em;
     border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.2s;
 }
 
-.cyan-button {
-    padding: 15px 30px;
-    background-color: cyan;
+.orange-button {
+    background-color: orange;
+    color: white;
     border: none;
-    color: black;
-    font-size: 1.2em;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 .orange-button:hover {
     background-color: darkorange;
+}
+
+.cyan-button {
+    background-color: cyan;
+    color: black;
+    border: none;
 }
 
 .cyan-button:hover {
