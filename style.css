@@ -20,12 +20,12 @@ body {
 
 .left-bg {
     left: 0;
-    background-image: url('LethalCompanyBackground.jpg');
+    background-image: url('Lethal_Company_Folder/LethalCompanyBackground.jpg');
 }
 
 .right-bg {
     right: 0;
-    background-image: url('REPOBackground.jpg');
+    background-image: url('REPO_Folder/REPOBackground.jpg');
 }
 
 .left-button-container, .right-button-container {
