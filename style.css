@@ -20,12 +20,12 @@ body {
 
 .lc-bg {
     left: 0;
-    background-image: url('lc/LethalCompanyBackground.jpg');
+    background-image: url('Lethal Company Folder/LethalCompanyBackground.jpg');
 }
 
 .repo-bg {
     right: 0;
-    background-image: url('repo/REPOBackground.jpg');
+    background-image: url('REPO Folder/REPOBackground.jpg');
 }
 
 .lc-button-container, .repo-button-container {
