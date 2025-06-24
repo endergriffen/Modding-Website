@@ -49,12 +49,15 @@ body {
 }
 
 .orange-button, .cyan-button {
-    padding: 15px 30px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 1.2em;
-    border-radius: 8px;
+    font-size: 1.1em;
+    border-radius: 50%;
     cursor: pointer;
+    display: inline-block;
     transition: background-color 0.2s;
 }
 
