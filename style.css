@@ -51,32 +51,34 @@ body {
 .orange-button, .cyan-button {
     width: 120px;
     height: 120px;
+    border-radius: 50%;
+    border: 2px solid red;
     text-align: center;
     line-height: 120px;
-    text-decoration: none;
     font-size: 1.1em;
-    border-radius: 50%;
+    text-decoration: none;
     cursor: pointer;
     display: inline-block;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .orange-button {
     background-color: orange;
     color: white;
-    border: none;
 }
 
 .orange-button:hover {
     background-color: darkorange;
+    transform: scale(1.05);
 }
 
 .cyan-button {
     background-color: cyan;
     color: black;
-    border: none;
 }
 
 .cyan-button:hover {
     background-color: #00dddd;
+    transform: scale(1.05);
 }
