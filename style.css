@@ -7,7 +7,7 @@ body {
     overflow: hidden;
 }
 
-.left-bg, .right-bg {
+.lc-bg, .repo-bg {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -18,30 +18,30 @@ body {
     z-index: -1;
 }
 
-.left-bg {
+.lc-bg {
     left: 0;
     background-image: url('Lethal Company Folder/LethalCompanyBackground.jpg');
 }
 
-.right-bg {
+.repo-bg {
     right: 0;
     background-image: url('REPO Folder/REPOBackground.jpg');
 }
 
-.left-button-container, .right-button-container {
+.lc-button-container, .repo-button-container {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.left-button-container {
+.lc-button-container {
     left: 0;
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.right-button-container {
+.repo-button-container {
     right: 0;
     width: 50%;
     display: flex;
