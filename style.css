@@ -64,7 +64,11 @@ body {
 
 .orange-button {
     background-color: orange;
+    font-size: 0.95em;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .orange-button:hover {
