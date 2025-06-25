@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle-button-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.circle-button {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 3px solid;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.circle-button:nth-child(2) {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(3) {
+    top: 20%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(4) {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(5) {
+    top: 80%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(6) {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(7) {
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(8) {
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(9) {
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-button:nth-child(10) {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+}
+
+.red {
+    border-color: red;
+}
+
+.gray {
+    border-color: gray;
+}
+
+.black {
+    border-color: black;
+}
+
+.green {
+    border-color: green;
+}
+
+.orange {
+    border-color: orange;
+}
+
+.yellow {
+    border-color: yellow;
+}
+
+.blue {
+    border-color: blue;
+}
+
+.teal {
+    border-color: teal;
+}
+
+.brown {
+    border-color: brown;
+}
