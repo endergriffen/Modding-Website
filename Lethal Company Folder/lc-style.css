@@ -47,23 +47,13 @@ a:hover {
 	background-color: #222;
 }
 
-.circle-container {
-	position: relative;
-	width: 360px;
-	height: 360px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .orbit-circle {
 	position: absolute;
-	width: 80px;
-	height: 80px;
-	background-color: white;
+	width: 60px;
+	height: 60px;
+	background-color: black;
 	border-radius: 50%;
 	top: 50%;
 	left: 50%;
-	transform: rotate(calc(40deg * var(--i))) translate(160px) rotate(calc(-40deg * var(--i)));
-	z-index: 0;
+	transform: rotate(calc(45deg * var(--i))) translate(120px) rotate(calc(-45deg * var(--i)));
 }
