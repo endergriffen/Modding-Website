@@ -47,6 +47,15 @@ a:hover {
 	background-color: #222;
 }
 
+.circle-container {
+	position: relative;
+	width: 360px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .orbit-circle {
 	position: absolute;
 	width: 140px;
@@ -55,6 +64,6 @@ a:hover {
 	border-radius: 50%;
 	top: 50%;
 	left: 50%;
-	transform: rotate(calc(40deg * var(--i))) translate(150px) rotate(calc(-40deg * var(--i)));
+	transform: rotate(calc(40deg * var(--i))) translate(160px) rotate(calc(-40deg * var(--i)));
 	z-index: 0;
 }
