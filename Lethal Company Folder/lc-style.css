@@ -48,6 +48,7 @@ a:hover {
 	position: relative;
 }
 
+/*
 .button-wrapper::before {
 	content: '';
 	width: 180px;
@@ -58,3 +59,4 @@ a:hover {
 	top: -180px;
 	border-radius: 50%;
 }
+*/
