@@ -46,3 +46,15 @@ a {
 a:hover {
 	background-color: #222;
 }
+
+.orbit-circle {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: rotate(calc(40deg * var(--i))) translate(140px) rotate(calc(-40deg * var(--i)));
+	z-index: 0;
+}
