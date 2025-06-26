@@ -50,11 +50,11 @@ a:hover {
 
 .button-wrapper::before {
 	content: '';
-	width: 130px;
-	height: 130px;
-	background-color: lightgrey;
+	width: 180px;
+	height: 180px;
+	background-color: black;
 	border: 4px solid red;
 	position: absolute;
-	top: -130px;
+	top: -180px;
 	border-radius: 50%;
 }
