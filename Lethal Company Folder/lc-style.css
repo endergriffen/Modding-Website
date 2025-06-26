@@ -28,7 +28,7 @@ body {
 	box-sizing: border-box;
 }
 
-.center-button {
+a {
 	color: white;
 	font-size: 1.2em;
 	text-decoration: none;
@@ -43,18 +43,6 @@ body {
 	line-height: normal;
 }
 
-.center-button:hover {
+a:hover {
 	background-color: #222;
-}
-
-.orbit-circle {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	background-color: black;
-	border-radius: 50%;
-	top: 50%;
-	left: 50%;
-	transform: rotate(calc(45deg * var(--i))) translate(120px) rotate(calc(-45deg * var(--i)));
-	z-index: 1;
 }
